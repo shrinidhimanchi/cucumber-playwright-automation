@@ -1,0 +1,48 @@
+{
+    "name": "ubank-ui-test",
+    "version": "1.0.0",
+    "keywords": [
+        "testing",
+        "bdd",
+        "cucumber",
+        "gherkin",
+        "tests",
+        "uiautomation"
+    ],
+    "description": "ui test automation using cucumberjs & axios",
+    "homepage": "https://github.com/shrinidhimanchi",
+    "scripts": {
+        "startUpScript": "node ui-tests/prerequisites/startUpScript.js",
+        "executeShellScript": "chmod 755 ui-tests/cli/runAcceptanceTest.sh",
+        "cucumber-test": "DEBUG=pw:api ./node_modules/.bin/cucumber-js  --profile default --tags @test ui-tests/features/*.feature; npm run cucumber-report",
+        "cucumber-report": "node ui-tests/cucumber-report/report.js"
+    },
+    "author": {
+        "name": "Shrinidhi Manchi <shrinidhimanchi@gmail.com>"
+    },
+    "contributors": [
+        "shrinidhimanchi <shrinidhimanchi@gmail.com>"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/shrinidhimanchi/ubank-ui-test"
+    },
+    "license": "MIT",
+    "engines": {
+        "node": ">=10",
+        "vscode": "^1.52.1"
+    },
+    "devDependencies": {},
+    "dependencies": {
+        "@cucumber/cucumber": "8.7.0",
+        "@playwright/test": "1.28.1",
+        "playwright": "1.28.1",
+        "prettier": "2.7.1",
+        "chai": "4.3.6",
+        "chai-as-promised": "7.1.1",
+        "axios": "0.27.2",
+        "config": "3.3.7",
+        "uuid": "^9.0.0",
+        "multiple-cucumber-html-reporter": "1.20.0"
+    }
+}

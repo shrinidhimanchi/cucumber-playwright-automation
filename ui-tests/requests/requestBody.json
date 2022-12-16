@@ -1,0 +1,13 @@
+{
+    "createUserRequest": {
+        "name": "Test",
+        "gender": "male",
+        "email": "test.test123@xyz.com",
+        "status": "Active"
+    },
+    "updateUserRequest": {
+        "name": "Bla Bla",
+        "email": "test.test123@xyz.com",
+        "status": "Inactive"
+    }
+}

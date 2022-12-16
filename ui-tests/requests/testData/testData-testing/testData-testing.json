@@ -1,0 +1,62 @@
+[
+    {
+        "scenarioName": "Test GET Request HTTP end-point",
+        "headers": {
+            "Accept": "application/json",
+            "Content-Type": "application/json;charset=utf-8",
+            "Authorization": "Bearer "
+        },
+        "queryParams": {
+
+        },
+        "testData": {
+            "name": "Belarus",
+            "email": "test.test123@xyz.com"
+        }
+    },
+    {
+        "scenarioName": "Test POST Request HTTP end-point",
+        "headers": {
+            "Accept": "application/json",
+            "Content-Type": "application/json;charset=utf-8",
+            "Authorization": "Bearer "
+        },
+        "queryParams": {
+
+        },
+        "testData": {
+            "name": "Belarus",
+            "email": "test.test123@xyz.com"
+        }
+    },
+    {
+        "scenarioName": "Test PATCH Request HTTP end-point",
+        "headers": {
+            "Accept": "application/json",
+            "Content-Type": "application/json;charset=utf-8",
+            "Authorization": "Bearer "
+        },
+        "queryParams": {
+
+        },
+        "testData": {
+            "name": "Barbara",
+            "email": "test.test123@xyz.com"
+        }
+    },
+    {
+        "scenarioName": "Test DELETE Request HTTP end-point",
+        "headers": {
+            "Accept": "application/json",
+            "Content-Type": "application/json;charset=utf-8",
+            "Authorization": "Bearer "
+        },
+        "queryParams": {
+
+        },
+        "testData": {
+            "name": "Belarus",
+            "email": "test.test123@xyz.com"
+        }
+    }
+]
