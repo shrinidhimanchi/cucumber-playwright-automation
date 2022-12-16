@@ -61,15 +61,15 @@ When we run the above command, it would prompt us to select from the displayed c
 - Select the appropriate feature to execute the tests(i.e, Press `1` for now since the `cucumber-tag` used on the feature file is `test`) and press `enter` or `return` keyword.
 - It would show us the fully qualified command on the `terminal` followed by running the tests.
 
-Once the tests are run successfully, reports would be generated under `output` directory(i.e, `api-tests/output/`)
+Once the tests are run successfully, reports would be generated under `output` directory(i.e, `ui-tests/output/`)
 
 -- An `.html` file automatically pops up in a browser on `Mac` once the above command gets executed.
 
 We have 2 types of `.html` report(s) generated(as mentioned below)
 
-- Cucumber's default html report(i.e, Cucumber generates the default HTML report under the directory(`api-tests/output`) with the filename  set to `inBuiltReport.html` as specified under our `cucumber.js` config on the root directory of the project.
+- Cucumber's default html report(i.e, Cucumber generates the default HTML report under the directory(`ui-tests/output`) with the filename  set to `inBuiltReport.html` as specified under our `cucumber.js` config on the root directory of the project.
 
-- Using the npm module `multiple-cucumber-html-reporter` that gives the beautify HTML report under the directory(`api-tests/output/multiple_cucumber_report/`) with the filename set to `index.html`.(Kudos to its creators: `wswebcreation` for coming up with one of the amazing plugin to show the enriched information of cucumber tests)
+- Using the npm module `multiple-cucumber-html-reporter` that gives the beautify HTML report under the directory(`ui-tests/output/multiple_cucumber_report/`) with the filename set to `index.html`.(Kudos to its creators: `wswebcreation` for coming up with one of the amazing plugin to show the enriched information of cucumber tests)
 
 Below folder hierarchy is used in building the project.
 
