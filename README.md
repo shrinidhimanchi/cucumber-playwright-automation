@@ -1,4 +1,4 @@
-# UBANK UI TEST
+# CUCUMBER PLAYWRIGHT AUTOMATION
 
 ## This Project helps us in performing the automation testing of UI using playwright & cucumber-js
 
