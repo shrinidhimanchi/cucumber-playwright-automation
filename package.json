@@ -1,5 +1,5 @@
 {
-    "name": "ubank-ui-test",
+    "name": "cucumber-playwright-automation",
     "version": "1.0.0",
     "keywords": [
         "testing",
@@ -7,9 +7,13 @@
         "cucumber",
         "gherkin",
         "tests",
-        "uiautomation"
+        "uiautomation",
+        "automation",
+        "playwright",
+        "open-source",
+        "automation-ui"
     ],
-    "description": "ui test automation using cucumberjs & axios",
+    "description": "ui test automation using cucumberjs & playwright",
     "homepage": "https://github.com/shrinidhimanchi",
     "scripts": {
         "startUpScript": "node ui-tests/prerequisites/startUpScript.js",

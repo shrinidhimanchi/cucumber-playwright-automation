@@ -74,7 +74,7 @@ We have 2 types of `.html` report(s) generated(as mentioned below)
 Below folder hierarchy is used in building the project.
 
 ```
-ubank-ui-test
+cucumber-playwright-automation
 ├── ui-tests
 |   ├── cli
 |   |   ├── cliParser.js    # This file helps us in validating `NODE_ENV` is a mandatory input while running the tests via shell script.
